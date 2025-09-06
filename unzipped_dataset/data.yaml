@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['0', '1', '2', '3', '4', '5', '6']
+
+roboflow:
+  workspace: sewer-crack-segment
+  project: first-sewer-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sewer-crack-segment/first-sewer-dataset/dataset/1

@@ -1,0 +1,5 @@
+# ignore dataset and venv
+venv/
+dataset/
+runs/
+__pycache__/
